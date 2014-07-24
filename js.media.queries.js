@@ -41,7 +41,6 @@ function js_media_queries(){
    * When window is resized
    */
   this.resized = function(){
-    console.log('s');
     self.update_dimensions();
     self.trigger_listeners();
   };
