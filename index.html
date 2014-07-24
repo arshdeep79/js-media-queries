@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Page Title</title>
+<meta name="description" content="Webpage for xxxx">
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="js.media.queries.js"></script>
+<script>
+  var jmq = new js_media_queries();
+  jmq.listen({
+    'condition':  '(HEIGHT < 500) && (WIDTH < 500)',
+    'func':  function(win){
+      console.log(win);
+    },
+  });
+</script>
+</head>
+
+<body>
+  
+</body>
+</html>
